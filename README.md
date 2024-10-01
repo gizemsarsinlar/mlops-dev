@@ -1,6 +1,6 @@
-## One prediction per request
+## MLOps-Dev
 
-You can find all of the following code in the `no-batch/` directory. In your terminal `cd` to this directory to continue with the lab. If you are currently within the root of the repo you can use the command `cd course4/week2-ungraded-labs/C4_W2_Lab_1_FastAPI_Docker/no-batch/`.
+### Wine Prediction Application
 
 Notice that the server's code must be in the file `main.py` within a directory called `app`, following FastAPI's guidelines.
 
@@ -301,11 +301,4 @@ Let's understand the flags used:
 
 There is a directory called `wine-examples` that includes three files, one for each class of wine. Use those to try out the server and also pass in some random values to see what you get!
 
-----
-**Congratulations on finishing part 1 of this ungraded lab!**
 
-During this lab you saw how to code a webserver using FastAPI and how to Dockerize it. You also learned how `Dockerfiles`, `images` and `containers` are related to each other and how to use `curl` to make `POST` requests to get predictions from servers.
-
-In the next part you will modify the server to accept batches of data instead of a single data point per request.
-
-Jump to [Part 2 - Adding batching to the server](../with-batch/README.md)
